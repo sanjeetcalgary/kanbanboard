@@ -7,10 +7,15 @@
 <img width="919" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/6b1345cf-20d4-4fc2-be17-ab9fd8c81e0c">
 
 1- adminer-deployment.yaml
+
 2- adminer-svc.yaml
+
 3- db >> pvc.yaml
+
 4- db >> pv.yaml
+
 5- db >> postgres-config.yaml
+
 6- created the PV manually on that node where postgres running
 
 <img width="536" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/3490fc2c-04be-4dbf-a470-377a86c42c97">
@@ -22,6 +27,7 @@
 Add kanban-app
 
 1- app-deployment.yaml
+
 2- app-svc.yaml
 
 <img width="956" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/3a6ad331-aaeb-4938-8c3d-c84f4885945d">
@@ -35,5 +41,6 @@ Observe the table added
 Add kanban-ui
 
 1- ui-deployment.yaml
+
 2- ui-svc.yaml
 
