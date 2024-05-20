@@ -1,0 +1,38 @@
+app:
+  name: app
+  group: app 
+  replicaCount: 1
+  container:
+    image: 
+    config: []
+    env:
+      - key: key 
+        value: value 
+
+adminer:
+  service: 
+    name: adminer 
+    group: db
+    type: NodePort
+    port: 8080
+    targetPort: 8080
+    nodePort: 30036
+
+kanbanapp:
+  service: 
+    name: kanban-app 
+    group: backend
+    type: NodePort
+    port: 8080
+    targetPort: 8080
+    nodePort: 30030
+
+kanbanui:
+  service: 
+    name: kanban-ui
+    group: backend
+    type: NodePort
+    port: 80
+    targetPort: 80
+    nodePort: 30032
+      
