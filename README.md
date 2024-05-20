@@ -44,5 +44,17 @@ Create service and config yaml
 
 <img width="955" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/61f728d7-43e2-4718-be84-54c600ec0cc2">
 
+## With helmfile
+----------------------
+
+<img width="378" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/2e1ca413-873d-48a2-9378-b96deb1839c7">
+
+<img width="704" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/a5026ded-7ba2-4d27-944a-2c06c2ea91b3">
+
+<img width="711" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/393576c0-2b18-4ef9-92c9-35b44dd20e8d">
+
+
+
+
 
 
