@@ -32,4 +32,17 @@ Create service and config yaml
 ## Now we will create app helm
 -------------------------------------
 
+<img width="719" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/d6ca0b21-91e2-4854-a55f-ee2f8779a437">
+
+<img width="536" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/1a516d25-f5b2-480f-975c-17dc1cb4de44">
+
+<img width="548" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/edb85896-6a8a-4943-9413-b745e78a07a9">
+
+<img width="462" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/bb7eee6a-7bdb-475a-8fe7-dc1c2aac6aec">
+
+<img width="715" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/b1d0a018-2f54-498c-8dd5-0963a60f6760">
+
+<img width="955" alt="image" src="https://github.com/sanjeetcalgary/kanbanboard/assets/103237142/61f728d7-43e2-4718-be84-54c600ec0cc2">
+
+
 
