@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: {{ .Values.pv.kind }}
+metadata:
+  name: {{ .Values.pv.name }}
+spec:
+  capacity: 
+    storage: {{ .Values.pv.storage }}
+  accessModes:
+    - {{ .Values.pv.accessMode }}
+  persistentVolumeReclaimPolicy: {{ .Values.pv.persistentVolumeReclaimPolicy }}
+  storageClassName: {{ .Values.pv.storageClassName }}
+  local:
+    path: {{ .Values.pv.path }}
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+          - key: kubernetes.io/hostname
+            operator: In
+            values:
+              - {{ .Values.pv.node1 }}
+              - {{ .Values.pv.node2 }}

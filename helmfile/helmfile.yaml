@@ -1,0 +1,27 @@
+releases:
+  - name: postgres
+    chart: ./charts/postgres
+    values:
+      - ./values/kanban-postgres.yaml
+    atomic: true
+    cleanupOnFail: true
+  - name: adminer
+    chart: ./charts/adminer
+    values:
+      - ./values/adminer.yaml
+    atomic: true
+    cleanupOnFail: true
+  - name: kanban-app
+    chart: ./charts/kanban-app
+    values:
+      - ./values/kanban-app.yaml
+    atomic: true
+    cleanupOnFail: true
+  - name: kanban-ui
+    chart: ./charts/kanban-ui
+    values:
+      - ./values/kanban-ui.yaml
+    atomic: true
+    cleanupOnFail: true
+
+   
